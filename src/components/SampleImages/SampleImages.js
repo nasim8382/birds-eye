@@ -11,7 +11,7 @@ useEffect( () => {
 
     return (
         <div className='my-16'>
-            <h1 className='text-center mb-16 text-3xl mx-12 md:text-5xl'>This images are taken by <span className='text-purple-700'>DJI Mavic 2 Pro</span></h1>
+            <h1 className='text-center mb-16 text-3xl mx-12 md:text-5xl text-orange-500'>This images are taken by <span className='text-purple-700'>DJI Mavic 2 Pro</span></h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {
                     images.map(image => <div key={image.id}>

@@ -4,7 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='header w-full'>
+        <div className='header w-full bg-teal-700'>
             <CustomLink to="/">Home</CustomLink>
             <CustomLink to="/reviews">Reviews</CustomLink>
             <CustomLink to="/specifications">Specifications</CustomLink>
