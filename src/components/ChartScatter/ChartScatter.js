@@ -6,7 +6,7 @@ const ChartScatter = () => {
     const [money] = useCharts();
     return (
         <div>
-            <h1 className='text-3xl text-center pb-4 text-teal-600'>Revenue Vs Investment</h1>
+            <h1 className='text-3xl text-center pb-4 text-teal-600'>Sell Vs Investment</h1>
             <ScatterChart width={600} height={400} className="mx-auto">
                 <CartesianGrid />
                 <XAxis dataKey="sell"/>

@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <div className='grid lg:grid-cols-2 gap-12 bg-no-repeat bg-cover' style={{backgroundImage: `url(${drone})`}}>
-                <div className='mx-auto md:pl-12 lg:pl-24 md:pt-24 text-white'>
+                <div className='mx-auto pt-16 md:pl-12 lg:pl-24 md:pt-24 text-white'>
                     <h2 className='text-6xl'>Capture your Moments!!!</h2>
                     <h3 className='text-5xl my-8'>With DJI Mavic 2 Pro</h3>
                     <p className='text-xl'>DJI Mavic 2 Pro Drone Quadcopter Camera, A drone that embodies all of DJI’s advanced, signature technologies, and is able to redefine what is possible for the world of aerial photography. In creating the Mavic 2, they have made this dream come true.</p>
@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <h2 className='text-center text-4xl py-16 text-purple-600'>Customer Reviews: ({threeReviews.length})</h2>
+            <h2 className='text-center text-3xl md:text-5xl py-16 text-purple-600'>Customer Reviews: ({threeReviews.length})</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-10 mb-16'>
             {
                 threeReviews.map(review => 
@@ -33,7 +33,7 @@ const Home = () => {
                         <img src={review.img} className="rounded-full" alt="customer" />
                         </div>
                         <h2 className='text-center py-3 text-xl text-rose-700'>{review.name}</h2>
-                        <h3 className='text-center pb-2 text-orange-400 text-lg'>Rating: {review.rating}</h3>
+                        <h3 className='text-center pb-2 text-orange-600 text-lg'>Rating: {review.rating}</h3>
                         <p className='text-slate-500'>"{review.review}"</p>
                     </div>
                 )
