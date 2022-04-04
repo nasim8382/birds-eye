@@ -1,5 +1,7 @@
 import useCustomerReviews from '../../hooks/useCustomerReviews';
 import { useNavigate } from 'react-router-dom';
+import drone from '../../images/bg.jpeg';
+import girl from '../../images/dji.jpg';
 
 const Home = () => {
     const [reviews] = useCustomerReviews();
@@ -7,7 +9,18 @@ const Home = () => {
     const threeReviews = reviews.slice(0, 3);
     return (
         <div>
-            <h2 className='text-center text-5xl py-16 text-purple-600'>Customer Reviews: ({threeReviews.length})</h2>
+            <div className='grid grid-cols-2 gap-12' style={{backgroundImage: `url(${drone})`}}>
+                <div className='mx-auto pl-24 pt-24 text-white'>
+                    <h2 className='text-6xl'>Capture your Moments!!!</h2>
+                    <h3 className='text-5xl my-8'>With DJI Mavic 2 Pro</h3>
+                    <p className='text-xl'>DJI Mavic 2 Pro Drone Quadcopter Camera, A drone that embodies all of DJI’s advanced, signature technologies, and is able to redefine what is possible for the world of aerial photography. In creating the Mavic 2, they have made this dream come true.</p>
+                </div>
+                <div className='mx-auto py-12'>
+                    <img style={{height: "600px"}} className='hidden md:inline-flex rounded-lg shadow-2xl shadow-neutral-500' src={girl} />
+                </div>
+            </div>
+
+            <h2 className='text-center text-4xl py-16 text-purple-600'>Customer Reviews: ({threeReviews.length})</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mx-10 mb-16'>
             {
                 threeReviews.map(review => 
