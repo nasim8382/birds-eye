@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Stephanie Liverani",
+        "img": "https://images.unsplash.com/profile-1487776159332-ee13f2515587?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": "The DJI Mavic 2 Pro is a modern classic thanks to being the first consumer drone featuring a 1-inch sensor and adjustable aperture. With multiple flight modes, intelligent safety features and the ability to capture professional-quality stills and video, its suitable for drone pilots of all levels of experience.",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Svyatoslav Romanov",
+        "img": "https://images.unsplash.com/profile-1612385049967-325e60c453f9image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": "I have been flying, taking photos and beautiful video with the DJI Mavic Pro 2 for a couple months now. This equipment has made me look like a pro! So stable... capable... user friendly.... and most of all fun for beginners to pros!",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Brooke Cagle",
+        "img": "https://images.unsplash.com/profile-1627609241345-8fb41ec24d95image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": "What a great package! Provides the drone, two backup batteries, extra propellers, and a handy case for travel. The Mavic 2 is simple to use and takes great photos and video. Love the Hyperlapse! It was a bit complex to figure out how to recharge the controller - I don’t know why the output from the charging cable needs an extra connector. Thank you!",
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "name": "Warren Wong",
+        "img": "https://images.unsplash.com/profile-1625378348226-8268db7ad539image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": " love this little guy so much. It is an absolute blast to fly and the picture quality is amazing. if you want to fly a lot you will need at least four batteries they get about 30 mins of hard flying with recording each. It’s obstacle avoidance is great just go slow when learning and it’s pretty intuitive",
+        "rating": 3
+    },
+    {
+        "id": 5,
+        "name": "Vicky Hladynets",
+        "img": "https://images.unsplash.com/profile-1613301359849-f2890b034cd0image?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": "This was by far my favorite quadcopter and I've had several. The camera is great, although 1080p 120fps is completely unusable, just terrible. Every other video mode looked amazing and the photos were fantastic. The thing is fast, and fairly quiet. I haven't flown it more than 400 feet in the air and not too far away so I haven't gotten to test the range, but the streaming video is so nice. Great little device.",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Joseph Gonzalez",
+        "img": "https://images.unsplash.com/profile-1518156163490-947fb5399aa6?dpr=1&auto=format&fit=crop&w=150&h=150&q=60&crop=faces&bg=fff",
+        "review": "Love the drone. The bag that came with the fly more kit is way too small for the drone 3 batteries and controller. Another inch in each direction would have made all the difference. Just got back from a trip to Belgium and France to visit WW1 battlefields. Used the drone to get Ariel views of battlefields and trench systems. Really easy to fly, great quality video.",
+        "rating": 4
+    }
+]

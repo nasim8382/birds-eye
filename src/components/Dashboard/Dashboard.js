@@ -6,7 +6,7 @@ import ChartScatter from '../ChartScatter/ChartScatter';
 
 const Dashboard = () => {
     return (
-        <div className='my-16 grid grid-cols-2 gap-16'>
+        <div className='my-16 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-16'>
             <ChartLine></ChartLine>
             <ChartArea></ChartArea>
             <ChartBarArea></ChartBarArea>
