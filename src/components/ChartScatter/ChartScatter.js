@@ -6,16 +6,16 @@ const ChartScatter = () => {
     const [money] = useCharts();
     return (
         <div>
-            <h1 className='text-3xl text-center pb-4 text-teal-600'>Sell Vs Investment</h1>
-            <ScatterChart width={600} height={400} className="mx-auto">
+            <h1 className='text-2xl text-center pb-4 text-pink-800'>Sell Vs Investment</h1>
+            <ScatterChart width={370} height={250} className="mx-auto">
                 <CartesianGrid />
                 <XAxis dataKey="sell"/>
                 <YAxis dataKey="investment"/>
                 <ZAxis type="number" range={[100]} />
                 <Tooltip cursor={{ strokeDasharray: '3 3' }} />
                 <Legend />
-                <Scatter name="Sell" data={money} fill="#8884d8" line shape="cross" />
-                <Scatter name="investment" data={money} fill="#82ca9d" line shape="diamond" />
+                <Scatter name="Sell" data={money} fill="crimson" line shape="cross" />
+                <Scatter name="investment" data={money} fill="darkslateblue" line shape="diamond" />
             </ScatterChart>
         </div>
     );

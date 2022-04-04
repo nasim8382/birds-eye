@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <div className='grid lg:grid-cols-2 gap-12 bg-no-repeat bg-cover' style={{backgroundImage: `url(${drone})`}}>
-                <div className='mx-auto pt-16 md:pl-12 lg:pl-24 md:pt-24 text-white'>
+                <div className='mx-4 md:mx-auto pt-16 md:pl-12 lg:pl-24 md:pt-24 text-white'>
                     <h2 className='text-6xl'>Capture your Moments!!!</h2>
                     <h3 className='text-5xl my-8'>With DJI Mavic 2 Pro</h3>
                     <p className='text-xl'>DJI Mavic 2 Pro Drone Quadcopter Camera, A drone that embodies all of DJI’s advanced, signature technologies, and is able to redefine what is possible for the world of aerial photography. In creating the Mavic 2, they have made this dream come true.</p>
@@ -19,7 +19,7 @@ const Home = () => {
                         <button onClick={() => navigate('/specifications')} className='my-16 bg-slate-600 block border-2 py-3 px-10 border-y-amber-500 hover:border-x-amber-500 hover:border-y-slate-200 transition rounded-lg'>Full Specifications</button>
                     </div>
                 </div>
-                <div className='mx-auto py-12'>
+                <div className='mx-4 md:mx-auto pb-16 md:py-12'>
                     <img style={{height: "600px"}} className='rounded-lg shadow-2xl shadow-neutral-500' src={girl} />
                 </div>
             </div>

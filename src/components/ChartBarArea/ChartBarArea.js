@@ -6,8 +6,8 @@ const ChartBarArea = () => {
     const [money] = useCharts();
     return (
         <div>
-          <h1 className='text-3xl text-center pb-4 text-teal-600'>Revenue Vs Investment</h1>
-          <ComposedChart width={600} height={400} data={money} className="mx-auto">
+          <h1 className='text-2xl text-center pb-4 text-pink-800'>Revenue Vs Investment</h1>
+          <ComposedChart width={370} height={250} data={money} className="mx-auto">
             <CartesianGrid stroke="#f5f5f5" />
             <XAxis dataKey="month" scale="band" />
             <YAxis />

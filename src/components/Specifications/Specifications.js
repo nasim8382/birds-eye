@@ -5,7 +5,7 @@ const Specifications = () => {
   return (
     <div className="text-center">
       <img src={mavic} alt="drone" />
-      <div className="py-16 text--center text-teal-700">
+      <div className="py-16 text--center text-teal-700 mx-4">
         <h2 className="text-3xl text-purple-500 mb-3">Aircraft</h2>
         <p className="text-semibold text-2xl mb-2">Weight (Battery & Propellers Included) : 907 g</p>
         <p className="text-semibold text-2xl mb-2">Max Ascent Speed : 5 m/s (S-mode), 4 m/s (P-mode)</p>
