@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import CustomLink from '../CustomLink/CustomLink';
-import './Header.css';
 import { MenuIcon, XIcon } from '@heroicons/react/solid';
 
 const Header = () => {

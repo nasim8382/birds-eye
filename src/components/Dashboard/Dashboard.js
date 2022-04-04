@@ -1,9 +1,16 @@
 import React from 'react';
+import ChartArea from '../ChartArea/ChartArea';
+import ChartBarArea from '../ChartBarArea/ChartBarArea';
+import ChartLine from '../ChartLine/ChartLine';
+import ChartScatter from '../ChartScatter/ChartScatter';
 
 const Dashboard = () => {
     return (
-        <div>
-            <h1 className='text-5xl text-center'>This is dashboard page</h1>
+        <div className='my-16 grid grid-cols-2 gap-16'>
+            <ChartLine></ChartLine>
+            <ChartArea></ChartArea>
+            <ChartBarArea></ChartBarArea>
+            <ChartScatter></ChartScatter>
         </div>
     );
 };
