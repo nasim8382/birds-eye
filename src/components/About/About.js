@@ -24,7 +24,7 @@ const About = () => {
                     <p className='text-3xl'>Digital Marketing</p>
                 </div>
             </div>
-            <button onClick={() => navigate('/home')} className='mx-auto my-16 block border-2 py-3 px-8 border-y-amber-500 hover:border-x-amber-500 hover:border-y-slate-200 transition'>Back To Buy DRONE</button>
+            <button onClick={() => navigate('/home')} className='mx-auto my-16 block border-2 py-3 px-8 border-y-amber-500 hover:border-x-amber-500 hover:border-y-slate-200 transition'>Back To Pavilion</button>
         </div>
     );
 };
